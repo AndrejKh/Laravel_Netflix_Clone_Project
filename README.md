@@ -1,39 +1,12 @@
-<a href="https://github.com/josuapsianturi/velflix"> <h1 align="center">Velflix</h1></a>
-<p align="center"><a href="https://github.com/josuapsianturi/velflix/blob/main/LICENSE"><img src="https://poser.pugx.org/cpriego/valet-linux/license.svg" alt="License"></a>
-</p>
+<h1 align="center">Laravel Netflix Clone Project</h1>
 
 ## About
 
-Velflix is a Laravel [Netflix](https://netflix.com) clone project using TALL stack ([Tailwindcss](https://tailwindcss.com/), [Alpinejs](https://github.com/alpinejs/alpine/), [Laravel](https://laravel.com/), [Livewire](https://laravel-livewire.com/) ).
+This is a Laravel [Netflix](https://netflix.com) clone project using TALL stack ([Tailwindcss](https://tailwindcss.com/), [Alpinejs](https://github.com/alpinejs/alpine/), [Laravel](https://laravel.com/), [Livewire](https://laravel-livewire.com/) ).
 
 > **Note**
 > Work in Progress
 
-## Table of Contents
-
-* [Screenshots](#screenshots)
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [Testing](#testing)
-* [Contributing](#contributing)
-* [License](#license)
-
-<a name="screenshots"></a>
-## Screenshots
-
-![home page](https://raw.githubusercontent.com/josuapsianturi/velflix/main/public/img/home.png)
-
-see full page [here](https://raw.githubusercontent.com/josuapsianturi/velflix/main/public/img/home-full-page.png)
-
-![movies header](https://raw.githubusercontent.com/josuapsianturi/velflix/main/public/img/movies-header.png)
-
-![movies](https://raw.githubusercontent.com/josuapsianturi/velflix/main/public/img/movies.png)
-
-see full page [here](https://raw.githubusercontent.com/josuapsianturi/velflix/main/public/img/movies-full-page.png)
-
-![Detail movies](https://raw.githubusercontent.com/josuapsianturi/velflix/main/public/img/details-movie.png)
-
-<a name="requirements"></a>
 ## Requirements
 
 Package | Version
@@ -44,7 +17,7 @@ Package | Version
 [Php](https://www.php.net/)  | V8.0.17+
 [Mysql](https://www.mysql.com/)  |V 8.0.27+
 
-<a name="installation"></a>
+
 ## Installation
 
 > **Warning**
@@ -53,24 +26,24 @@ Package | Version
 Here is how you can run the project locally:
 1. Clone this repo
     ```sh
-    git clone https://github.com/josuapsianturi/velflix.git
+    git clone https://github.com/AndrejKh/Laravel_Netflix_Clone_Project.git
     ```
 
 1. Go into the project root directory
     ```sh
-    cd velflix
+    cd Laravel_Netflix_Clone_Project
     ```
 
 1. Copy .env.example file to .env file
     ```sh
     cp .env.example .env
     ```
-1. Create database `velflix` (you can change database name)
+1. Create database (you can change database name)
 
 1. Create account and get an API key themoviedb [ here](https://www.themoviedb.org/settings/api). Make sure to copy `API Read Access Token (v4 auth)`.
 
 1. Go to `.env` file 
-    - set database credentials (`DB_DATABASE=velflix`, `DB_USERNAME=root`, `DB_PASSWORD=`)
+    - set database credentials (`DB_DATABASE=[dbname]`, `DB_USERNAME=root`, `DB_PASSWORD=`)
     - paste `TMDB_TOKEN=(your API key)` 
     > Make sure to follow your database username and password
 
@@ -211,4 +184,4 @@ Pull requests are welcome.
 
 <a name="license"></a>
 ## License
-Velflix is an open-sourced software licensed under [the MIT license](https://github.com/josuapsianturi/velflix/blob/main/LICENSE)
+This is an open-sourced software licensed under [the MIT license]
